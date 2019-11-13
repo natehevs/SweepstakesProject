@@ -14,30 +14,10 @@ namespace SweepstakesProject
         public int registrationNumber;
         public Contestant()
         {
-            
-        }
-
-        public void FirstName()
-        {
-            Console.WriteLine("Please enter your first name.");
-            firstName = Console.ReadLine();
-        }
-
-        public void LastName()
-        {
-            Console.WriteLine("Please enter your Last name.");
-            lastName = Console.ReadLine();
-        }
-
-        public void Email()
-        {
-            Console.WriteLine("");
-            email = Console.ReadLine();
-        }
-
-        public void RegistrationNumber()
-        {
-            registrationNumber = 10;
+            firstName = UserInterface.GetFirstName();
+            lastName = UserInterface.GetLastName();
+            email = UserInterface.GetEmail();
+            registrationNumber = UserInterface.GetRegistrationNumber();
         }
     }
 }
