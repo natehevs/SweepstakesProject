@@ -8,5 +8,14 @@ namespace SweepstakesProject
 {
     class MarketingFirm
     {
+        public MarketingFirm()
+        {
+
+        }
+
+        public void CreateSweetstakes()
+        {
+
+        }
     }
 }
